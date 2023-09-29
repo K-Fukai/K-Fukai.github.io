@@ -122,20 +122,20 @@ footer {
 .sidenav {
     height: 100%;
     width: 0;
-    position: fixed;
+    position: relative;
     z-index: 1;
     top: 0;
     left: 0;
     background-color: rgb(10, 86, 140);
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 60px;
+    padding-top: 80px;
 }
 
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 30px;
     color: #f4f3f3;
     display: block;
     transition: 0.3s;
@@ -156,11 +156,11 @@ footer {
 }
 
 .sidenav .closebtn {
-    position: absolute;
+    position: relative;
     top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
+    left: 5px;
+    font-size: 30px;
+    margin-left: 10px;
 }
 
 .opennav {
