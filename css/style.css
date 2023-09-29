@@ -15,6 +15,8 @@ body {
 .container {
     display: flex;
     flex-wrap: wrap;
+    max-width: 800px; /* Adjust as needed */
+    margin: auto; /* Centers the container */
   }
   
   .main-content {
@@ -38,7 +40,11 @@ body {
   }
 
   
-
+  figure img {
+    width: 100%;
+    max-width: 500px; /* You can adjust this value based on your design */
+    height: auto;
+}
 
   
 /* 
@@ -46,13 +52,13 @@ body {
     display: flex;
   } */
   
-  /* .left-column {
+   .left-column {
     flex: 6.5; 
   }
   
   .right-column {
     flex: 3.5;
-  }  */
+  }  
 
 .centered-text {
     display: flex;
@@ -64,12 +70,6 @@ body {
 }
 
 
-
-
-.scaled-image {
-    width: 270px;  /* Adjust as needed */
-    height: auto; /* Maintains aspect ratio */
-}
 
 
 
