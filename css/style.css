@@ -5,8 +5,120 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
+    background-color: hsl(199, 69%, 87%); /* Replace with the color you prefer */
 }
 
+
+
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .main-content {
+    flex: 1;
+    min-width: 65%; /* You can adjust based on your design */
+  }
+  
+  .figures {
+    flex: 1;
+    min-width: 35%; /* You can adjust based on your design */
+    display: flex;
+    align-items: center;
+    justify-content: space-around; /* Aligns the two figures with space around them */
+  }
+  
+  @media (max-width: 768px) { /* Adjust breakpoint as needed */
+    .main-content,
+    .figures {
+      min-width: 100%; /* Stacks .main-content and .figures vertically */
+    }
+  }
+
+  
+
+
+  
+/* 
+.container {
+    display: flex;
+  } */
+  
+  /* .left-column {
+    flex: 6.5; 
+  }
+  
+  .right-column {
+    flex: 3.5;
+  }  */
+
+.centered-text {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    height: 2ex; 
+    text-align: center;
+    margin-bottom: 30px; 
+}
+
+
+
+
+.scaled-image {
+    width: 270px;  /* Adjust as needed */
+    height: auto; /* Maintains aspect ratio */
+}
+
+
+
+.spacer {
+    height: 140px; /* Adjust the height to add more or less space */
+}
+
+
+header {
+    /* background: hsl(187, 93%, 89%); */
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 3em 0;
+    margin-top: 0px;  /* Adjust as needed */
+}
+
+.left-align-header {
+    font-size: 14px;
+    text-align: left;
+    margin-left: 50px; /* Or any desired value or unit like %, em, rem, vw etc. */
+}
+
+
+
+main {
+    margin: 50px;
+    margin-top: 0px;  /* Adjust as needed */
+}
+
+
+
+
+
+
+
+footer {
+    text-align: center;
+    padding: 3em;
+    background: #333;
+    color: white;
+}
+
+
+
+
+
+
+
+/* style.css */
 .sidenav {
     height: 100%;
     width: 0;
@@ -14,17 +126,27 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: rgb(10, 86, 140);
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
 }
 
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f4f3f3;
+    display: block;
+    transition: 0.3s;
+}
+
+
 .sidenav a, .opennav {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: #f4f2f2;
     display: block;
     transition: 0.3s;
 }
@@ -44,7 +166,7 @@ body {
 .opennav {
     font-size: 30px;
     cursor: pointer;
-    background-color: #111;
+    background-color: rgb(10, 86, 140);
     color: white;
     padding: 10px 15px;
     text-align: center;
@@ -55,6 +177,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    /*background-color: #54a9d7;*/ /* Replace with the color you prefer */
 }
 
 .center-content h1, .center-content p {
@@ -63,22 +186,95 @@ body {
 
 /* style.css */
 .left-align-container h2 {
-    font-size: 20px; 
+    font-size: 6px; 
     font-family: 'Times New Roman', Times, serif;
 }
 
 .left-align-container p {
-    font-size: 16px; /* adjust as needed */
+    font-size: 12px; /* adjust as needed */
     font-family: 'Times New Roman', Times, serif;
 }
 
 .left-align-container a {
-    font-size: 18px; /* adjust as needed */
+    font-size: 12px; /* adjust as needed */
     font-family: 'Times New Roman', Times, serif;
     /* ... other styles ... */
 }
 
 .left-align-container li {
-    margin-bottom: 20px; /* adjust as needed for spacing between publications */
+    margin-bottom: 10px; /* adjust as needed for spacing between publications */
     font-family: 'Times New Roman', Times, serif;
 }
+
+
+#top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px; /* or the height you prefer */
+    background-color: rgb(10, 86, 140);
+    color: rgb(251, 251, 251); /* text color, change as needed */
+    z-index: 1000;
+}
+
+#menu-icon {
+    position: relative;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 24px;
+}
+
+
+  
+
+
+/* Your CSS File */
+#mySidenav {
+    position: fixed; /* Fixed position */
+    top: 0; /* Zero distance from the top */
+    left: 0; /* Zero distance from the left */
+    height: 100%; /* Full height of the viewport */
+    width: 0px; /* Or your preferred width */
+    overflow-x: hidden; /* No horizontal scroll */
+    transition: width 0.3s ease; /* for smooth transition */
+    /* Additional styling as needed, such as background color, padding, etc. */
+}
+
+
+.publication-title {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #5c466e;
+    margin-bottom: -0.4em;
+    margin-top: 1.25em;
+}
+
+.publication-authors {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    margin-bottom: 0.01em;
+}
+
+
+
+.publication-citation {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    margin-top: 0.1em;
+    /* any other styling you want */
+}
+
+
+.bold {
+    font-weight: bold;
+}
+
+
+
+

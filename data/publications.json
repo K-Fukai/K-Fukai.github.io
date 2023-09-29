@@ -1,23 +1,59 @@
 [
   {
+    "authors": "Y. Nozawa and K. Fukai",
     "title": "Explicit Construction of Local Conserved Quantities in the XYZ Spin-1/2 Chain",
-    "authors": "Nozawa, Yuji and Fukai, Kouhei",
     "journal": "Phys. Rev. Lett.",
+    "volume": "125",
+    "page": "90602",
     "year": "2020",
-    "link": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.125.090602"
+    "link": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.125.090602",
+    "type": "published"
   },
   {
     "title": "Noncommutative generalized Gibbs ensemble in isolated integrable quantum systems",
     "authors": "Kouhei Fukai, Yuji Nozawa, Koji Kawahara, and Tatsuhiko N. Ikeda",
     "journal": "Phys. Rev. Research",
     "year": "2020",
-    "link": "https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.2.033403"
+    "page" : "33403",
+    "volume" : "2",
+    "link": "https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.2.033403",
+    "type": "published"
   },
   {
-    "title": "Proof of completeness of the local conserved quantities in the one-dimensional Hubbard model",
+    "title": "Matrix product operator representations for the local conserved quantities of the Heisenberg chain",
     "authors": "Kyoichi Yamada, Kohei Fukai",
     "journal": "SciPost Physics Core",
     "year": "2023",
-    "link": "https://scipost.org/submissions/scipost_202306_00008v3/"
+    "volume": "accepted",
+    "page": "",
+    "link": "https://scipost.org/submissions/scipost_202306_00008v3/",
+    "type": "published"
+  }
+  ,
+  {
+    "title": "All Local Conserved Quantities of the One-Dimensional Hubbard Model",
+    "authors": "Kohei Fukai",
+    "journal": "arXiv preprint arXiv:2309.07472",
+    "year": "2023",
+    "link": "https://arxiv.org/abs/2301.03621",
+    "type": "preprint"
+  }
+  ,
+  {
+    "title": "Proof of completeness of the local conserved quantities in the one-dimensional Hubbard model",
+    "authors": "Kohei Fukai",
+    "journal": "arXiv preprint arXiv:2309.09354",
+    "year": "2023",
+    "link": "https://arxiv.org/abs/2309.09354",
+    "type": "preprint"
+  }
+  ,
+  {
+    "title": "On correlation functions in models related to the Temperley-Lieb algebra",
+    "authors": "Kohei Fukai and Raphael Kleinem\"uhl and Balazs Pozsgay and Eric Vernier",
+    "journal": "arXiv preprint arXiv:2309.07472",
+    "year": "2023",
+    "link": "https://arxiv.org/abs/2309.07472",
+    "type": "preprint"
   }
 ]

@@ -6,23 +6,85 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <div id="top-bar" onclick="toggleNav()">
+        <div id="menu-icon">&#9776;</div>
+    </div>
+
+
+
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="index.html">Home</a>
-        <a href="publications.html">Publications</a>
+        <a href="#" onclick="navigateWithDelay(event, 'index.html')">Home</a>
+        <a href="publications.html" onclick="navigateWithDelay(event)">Publications</a>
         <a href="talks.html">Talks</a>
         <a href="cv.html">CV</a>
-        <!-- Add more links as needed -->
     </div>
     
-    <span class="opennav" onclick="openNav()">&#9776; Open</span>
-    
-    <section id="home" class="center-container">
-        <div class="center-content">
-            <h1>K F</h1>
-            <p>integrable</p>
+
+
+
+    <header class="left-align-header">
+        <h1>Kohei Fukai's Home page</h1>
+    </header>
+
+
+
+
+
+
+    <div class="container">
+        <div class="left-column">      
+            <main>
+                <section id="Affiliation">
+                    <h2>Affiliation</h2>
+                    <p>Ph. D. student at the University of Tokyo</p>
+                    <p>Institute for solid state physics (Kashiwa campus)</p>
+                </section>
+
+
+                <section id="research-interest">
+                    <h2>Research Interest</h2>
+                    <p>Integrability, local conservation law, exactly solvable model</p>
+                </section>
+                
+                <section id="contact">
+                    <h2>Contact</h2>
+                    <p>Email: k.fukai[at]issp.u-tokyo.ac.jp</p>
+                </section>
+            </main>
         </div>
-    </section>
+
+
+
+
+
+        <div class="right-column">
+                <img src="fig/IMG_4092.jpg" alt="Danube River, Budapest, Hungary" class="scaled-image">
+                <div class="centered-text">
+                    <p style="font-size : 0.75em" >Danube River, Budapest</p>
+                </div>
+                <img src="fig/IMG_4643.jpg" alt="Danube River, Budapest, Hungary" class="scaled-image">
+                <div class="centered-text">
+                    <p style="font-size : 0.75em" >Along the coastline of Trieste</p>
+                </div>
+        </div>
+      </div>
+
+
+  
+
+
+    
+    <div class="spacer"></div>
+
+
+    <footer>
+        <p>© 2023 Kohei Fukai</p>
+    </footer>
+
+
+
+    
 
     <script src="js/script.js"></script>
 </body>
