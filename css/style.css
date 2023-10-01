@@ -145,7 +145,7 @@ footer {
 .sidenav a, .opennav {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 30px;
     color: #f4f2f2;
     display: block;
     transition: 0.3s;
@@ -224,7 +224,9 @@ footer {
     left: 10px;
     transform: translateY(-50%);
     cursor: pointer;
-    font-size: 24px;
+    font-size: 2rem;
+    width: 50%; /* or 2em or 2rem or 2vw */
+    height: auto; /* to maintain aspect ratio */
 }
 
 
