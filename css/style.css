@@ -365,3 +365,24 @@ footer {
 
 
 
+/* for CV */
+
+
+.content-wrapper {
+    margin-left: 4rem; /* Adjust this value as per your preference */
+    margin-right: 4rem;
+}
+
+.main-list {
+    list-style-type: disc; /* Main bullet */
+    padding-left: 20px;
+}
+
+.sub-list {
+    list-style-type: none; /* No bullet for sub-items */
+    padding-left: 20px; /* Indentation for sub-items */
+}
+
+
+
+

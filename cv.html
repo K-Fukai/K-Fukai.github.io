@@ -1,29 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="stylesheet" href="css/style.css">
-        <script src="js/script.js" defer></script>
-        <script src="js/publications.js" defer></script>
-    </head>
-    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kohei Fukai - CV</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
 <body>
+
+    
+    <!-- Navigation (Can use the same as your homepage) -->
     <div id="top-bar" onclick="toggleNav()">
         <div id="menu-icon">&#9776;</div>
     </div>
-
     <div id="mySidenav" class="sidenav">
-        <a href="index.html" onclick="navigateWithDelay(event)">Home</a>
-        <a href="publications.html" onclick="navigateWithDelay(event)">Publications</a>
-        <a href="talks.html">Talks</a>
+        <a href="index.html">Home</a>
+        <a href="publications.html">Publications</a>
+        <a href="talks.html">Presentations</a>
         <a href="cv.html">CV</a>
-        <!-- Add more links as needed -->
     </div>
 
-   
-
     <header class="left-align-header">
-        <h1>Now under construction....</h1>
+        <h1>Curriculum Vitae</h1>
     </header>
-    <!-- <script src="js/publications.js"></script> -->
+
+
+    <div class="content-wrapper">
+        
+        <!-- Education -->
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <h4>Ph. D. Student at the University of Tokyo</h4>
+                    <p>Year: 2020-2023, Department of physics, Institute for solid state physics, Kashiwa campus</p>
+                </li>
+                <li>
+                    <h4>Master course Student at the University of Tokyo</h4>
+                    <p>Year: 2019-2020, Department of physics, Institute for solid state physics, Kashiwa campus</p>
+                </li>
+                <li>
+                    <h4>BSc Student at the University of Tokyo</h4>
+                    <p>Year: 2018-2019, Department of physics, Hongo campus</p>
+                </li>
+            </ul>
+        </section>
+        
+        <!-- Grant -->
+        <section id="grant">
+            <h2>Grant</h2>
+            <ul>
+                <li>
+                    <h4><a href="https://curie.phys.s.u-tokyo.ac.jp/en/fellowship/">JSR fellowship</a></h4>
+                    <p>From April 2021 to March 2024</p>
+                </li>
+                <li>
+                    <h4><a href="https://www.jsps.go.jp/english/e-pd/index.html">Japan Society for Promotion of Science (JSPS) Research Fellowship for Young Scientists</a> (DC1)</h4>
+                    <p>From April 2021 to March 2024</p>
+                </li>
+                <li>
+                    <h4><a href="https://www.s.u-tokyo.ac.jp/en/FoPM/">The Forefront Physics and Mathematics Program to Drive Transformation, The University of Tokyo</a> </h4>
+                    <p>From Octover 2019 to March 2024</p>
+                </li>
+            </ul>
+            <!-- Add more grant entries as needed -->
+        </section>
+        
+
+
+
+    <!-- Skills -->
+    <section id="skills">
+        <h2>Skills & Competencies</h2>
+        <ul>
+            <li>Programming: Python, C++,  MATLAB, Mathematica</li>
+            <!-- Add more skills as needed -->
+        </ul>
+    </section>
+
+    <!-- Any other sections you find relevant -->
+    
+</div> <!-- End of .content-wrapper -->
+
+<footer>
+    <p>© 2023 Kohei Fukai</p>
+</footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
