@@ -7,16 +7,22 @@ document.addEventListener('DOMContentLoaded', function () {
             
             talks.forEach(talk => {
                 const li = document.createElement('li');
-                 // Create a link element for the title
-                 const titleLink = document.createElement('a');
-                 titleLink.href = talk.link; // Assuming your JSON has a link property for each talk
-                 titleLink.textContent = talk.title;
-                 titleLink.target = "_blank"; // Optional: Opens the link in a new tab
+
  
-                 const title = document.createElement('h2');
+                 const title = document.createElement('p');
                  title.className = 'talk-title';
-                 title.appendChild(titleLink); // Append the link to the title
+
+                 if(talk.link){
+                    // Create a link element for the title
+                    const titleLink = document.createElement('a');
+                    titleLink.href = talk.link; // Assuming your JSON has a link property for each talk
+                    titleLink.textContent = talk.title;
+                    titleLink.target = "_blank"; // Optional: Opens the link in a new tab
+                    title.appendChild(titleLink); // Append the link to the title
+                 };
                  li.appendChild(title); // Append the title to the list item
+
+
  
                  const authors = document.createElement('p');
                  authors.className = 'talk-authors';
