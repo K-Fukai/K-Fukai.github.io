@@ -32,7 +32,7 @@ body {
     height: var(--top-bar-height); /* or the height you prefer */
     background-color: rgb(10, 86, 140);
     color: rgb(251, 251, 251); /* text color, change as needed */
-    /* z-index: 1000; */
+    z-index: 1000;
     /* margin-bottom: var(--top-bar-height);  */
 }
 
