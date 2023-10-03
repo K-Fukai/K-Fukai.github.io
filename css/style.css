@@ -5,7 +5,7 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
-    background-color: hsl(187, 100%, 93%); /* Replace with the color you prefer */
+    background-color: hsla(188, 29%, 85%, 0.588); /* Replace with the color you prefer */
 }
 
 
