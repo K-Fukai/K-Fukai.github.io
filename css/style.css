@@ -5,9 +5,86 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
-    background-color: hsl(199, 69%, 87%); /* Replace with the color you prefer */
+    background-color: hsl(187, 100%, 93%); /* Replace with the color you prefer */
 }
 
+
+
+
+
+
+:root {
+    --menu-icon-size: 4rem; /* Default relative size */
+    --top-bar-height: 6rem;
+}
+
+
+
+
+
+
+
+#top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: var(--top-bar-height); /* or the height you prefer */
+    background-color: rgb(10, 86, 140);
+    color: rgb(251, 251, 251); /* text color, change as needed */
+    z-index: 1000;
+}
+
+
+
+header {
+    /* background: hsl(187, 93%, 89%); */
+    color: rgb(0, 0, 0);
+    text-align: center;
+    /* padding: 3em 0; */
+    margin-top: var(--top-bar-height);  /* Adjust as needed */
+}
+
+
+
+@media (max-width: 768px) {
+    :root {
+        --menu-icon-size: 70px; 
+    }
+}
+
+
+
+
+
+#menu-icon {
+    font-size: var(--menu-icon-size); /* Use the variable for font-size */
+    position: relative;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    /* font-size: 4rem; */
+    width: 200%; /* or 2em or 2rem or 2vw */
+    height: auto; /* to maintain aspect ratio */
+}
+
+
+
+  
+
+
+/* Your CSS File */
+#mySidenav {
+    position: fixed; /* Fixed position */
+    top: 0; /* Zero distance from the top */
+    left: 0; /* Zero distance from the left */
+    height: 100%; /* Full height of the viewport */
+    width: 0px; /* Or your preferred width */
+    overflow-x: hidden; /* No horizontal scroll */
+    transition: width 0.3s ease; /* for smooth transition */
+    /* Additional styling as needed, such as background color, padding, etc. */
+}
 
 
 
@@ -47,10 +124,6 @@ body {
 }
 
   
-/* 
-.container {
-    display: flex;
-  } */
   
    .left-column {
     flex: 6.5; 
@@ -78,18 +151,32 @@ body {
 }
 
 
-header {
-    /* background: hsl(187, 93%, 89%); */
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 3em 0;
-    margin-top: 0px;  /* Adjust as needed */
-}
+
 
 .left-align-header {
     font-size: 14px;
     text-align: left;
     margin-left: 50px; /* Or any desired value or unit like %, em, rem, vw etc. */
+}
+
+
+
+
+.left-align-header h1 {
+    display: inline-block;
+    position: relative;
+}
+
+
+
+.left-align-header h1::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -5px;  /* Adjust the distance from the text if needed */
+    height: 3px;  /* Adjust the thickness of the line */
+    background-color: black;  /* Adjust the line color */
 }
 
 
@@ -206,62 +293,6 @@ footer {
     font-family: 'Times New Roman', Times, serif;
 }
 
-
-#top-bar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 6rem; /* or the height you prefer */
-    background-color: rgb(10, 86, 140);
-    color: rgb(251, 251, 251); /* text color, change as needed */
-    z-index: 1000;
-}
-
-
-
-
-
-
-
-
-:root {
-    --menu-icon-size: 4rem; /* Default relative size */
-}
-
-#menu-icon {
-    font-size: var(--menu-icon-size); /* Use the variable for font-size */
-    position: relative;
-    top: 50%;
-    left: 10px;
-    transform: translateY(-50%);
-    cursor: pointer;
-    /* font-size: 4rem; */
-    width: 200%; /* or 2em or 2rem or 2vw */
-    height: auto; /* to maintain aspect ratio */
-}
-
-@media (max-width: 768px) {
-    :root {
-        --menu-icon-size: 70px; 
-    }
-}
-
-
-  
-
-
-/* Your CSS File */
-#mySidenav {
-    position: fixed; /* Fixed position */
-    top: 0; /* Zero distance from the top */
-    left: 0; /* Zero distance from the left */
-    height: 100%; /* Full height of the viewport */
-    width: 0px; /* Or your preferred width */
-    overflow-x: hidden; /* No horizontal scroll */
-    transition: width 0.3s ease; /* for smooth transition */
-    /* Additional styling as needed, such as background color, padding, etc. */
-}
 
 
 .publication-title {
