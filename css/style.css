@@ -32,7 +32,8 @@ body {
     height: var(--top-bar-height); /* or the height you prefer */
     background-color: rgb(10, 86, 140);
     color: rgb(251, 251, 251); /* text color, change as needed */
-    z-index: 1000;
+    /* z-index: 1000; */
+    /* margin-bottom: var(--top-bar-height);  */
 }
 
 
@@ -42,7 +43,7 @@ header {
     color: rgb(0, 0, 0);
     text-align: center;
     /* padding: 3em 0; */
-    margin-top: var(--top-bar-height);  /* Adjust as needed */
+    margin-top: var(--top-bar-height);  
 }
 
 
@@ -156,7 +157,10 @@ header {
 .left-align-header {
     font-size: 14px;
     text-align: left;
-    margin-left: 50px; /* Or any desired value or unit like %, em, rem, vw etc. */
+    margin-left: 4rem; 
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: auto;  */
 }
 
 
