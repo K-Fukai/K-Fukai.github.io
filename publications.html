@@ -13,9 +13,9 @@
 
     <div id="mySidenav" class="sidenav">
         <a href="index.html" onclick="navigateWithDelay(event)">Home</a>
-        <a href="publications.html" onclick="navigateWithDelay(event)">Publications</a>
-        <a href="talks.html">Talks</a>
-        <a href="cv.html">CV</a>
+        <a href="#" onclick="navigateWithDelay(event, 'publications.html')">Publications</a>
+        <a href="talks.html" onclick="navigateWithDelay(event)">Presentations</a>
+        <a href="cv.html" onclick="navigateWithDelay(event)">CV</a>
         <!-- Add more links as needed -->
     </div>
 
@@ -36,12 +36,12 @@
     
     <section id="publications-container">
         <div class="published-articles">
-          <h2 style="margin-left: 1cm;">Published Articles</h2>
+          <h2 style="margin-left: 3rem;">Published Articles</h2>
           <ol id="published-container"></ol> <!-- Ordered List for Published Articles -->
         </div>
       
         <div class="preprints">
-          <h2 style="margin-left: 1cm;">Preprints</h2>
+          <h2 style="margin-left: 3rem;">Preprints</h2>
           <ol id="preprints-container"></ol> <!-- Ordered List for Preprints -->
         </div>
     </section>

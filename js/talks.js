@@ -2,57 +2,57 @@ document.addEventListener('DOMContentLoaded', function () {
     fetch('data/talks.json')
         .then(response => response.json())
         .then(talks => {
-            const publishedContainer = document.getElementById('published-container');
-            const preprintsContainer = document.getElementById('preprints-container');
+            
+            const oral_domestic_Container = document.getElementById('oral-domestic-container');
+            const oral_international_Container = document.getElementById('oral-international-container');
+            const poster_domestic_Container = document.getElementById('poster-domestic-container');
+            const poster_international_Container = document.getElementById('poster-international-container');
+            const seminer_Container = document.getElementById('seminer-container');
             
             talks.forEach(talk => {
                 const li = document.createElement('li');
 
  
-                 const title = document.createElement('p');
-                 title.className = 'talk-title';
-
-                 if(talk.link){
-                    // Create a link element for the title
-                    const titleLink = document.createElement('a');
-                    titleLink.href = talk.link; // Assuming your JSON has a link property for each talk
-                    titleLink.textContent = talk.title;
-                    titleLink.target = "_blank"; // Optional: Opens the link in a new tab
-                    title.appendChild(titleLink); // Append the link to the title
-                 };
-                 li.appendChild(title); // Append the title to the list item
+          
 
 
- 
-                 const authors = document.createElement('p');
-                 authors.className = 'talk-authors';
-                 authors.textContent = `${talk.authors}`;
-                 li.appendChild(authors); // Append the authors to the list item
+                const speaker = document.createElement('p');
+                speaker.className = 'talk-speaker';
+                let titleContent = talk.link ? `<a href="${talk.link}">${talk.title}</a>` : `${talk.title}`;
+                speaker.innerHTML = `<span class="underline">${talk.speaker}</span>${talk.authors ? ', ' + talk.authors : ''}, "${titleContent}"`;
+                li.appendChild(speaker); // Append the authors to the list item
+
+
+
+
+
+
+                const conference = document.createElement('p');
+                conference.className = 'talk-conference';
+                conference.textContent = `${talk.conference}${talk.place ? ', ' + talk.place : ''}${talk.number ? ', ' + talk.number : ''}, ${talk.year}`;
+                li.appendChild(conference); // Append the authors to the list item
+
                  
+
+
                
                 
-                // Append the list item to the correct container based on talk type
-                if (talk.type === 'published') {
-                    const citation = document.createElement('p');
-                    citation.className = 'talk-citation';
-                    
-                    citation.innerHTML = `${talk.journal}, <span class='bold'>${talk.volume}</span>, ${talk.page} (${talk.year}).`;
-                    li.appendChild(citation);
+                let targetContainer;
+                if (talk.type === 'oral' && talk.nationality === 'domestic') {
+                    targetContainer = oral_domestic_Container;
+                } else if (talk.type === 'oral' && talk.nationality === 'international') {
+                    targetContainer = oral_international_Container;
+                } else if (talk.type === 'poster' && talk.nationality === 'international') {
+                    targetContainer = poster_international_Container;
+                } else if (talk.type === 'poster' && talk.nationality === 'domestic') {
+                    targetContainer = poster_domestic_Container;
+                } else if (talk.type === 'seminer') {
+                    targetContainer = seminer_Container;
+                }
 
-                    const ol = publishedContainer.querySelector('ol') || document.createElement('ol');
-                    if (!publishedContainer.contains(ol)) publishedContainer.appendChild(ol);
-                    ol.appendChild(li);
-                } else if (talk.type === 'preprint') {
-
-                    const citation = document.createElement('p');
-                    citation.className = 'talk-citation';
-                   
-                    citation.innerHTML = `${talk.journal} (${talk.year}).`;
-                    li.appendChild(citation);
-
-
-                    const ol = preprintsContainer.querySelector('ol') || document.createElement('ol');
-                    if (!preprintsContainer.contains(ol)) preprintsContainer.appendChild(ol);
+                if (targetContainer) {
+                    const ol = targetContainer.querySelector('ol') || document.createElement('ol');
+                    if (!targetContainer.contains(ol)) targetContainer.appendChild(ol);
                     ol.appendChild(li);
                 }
             });

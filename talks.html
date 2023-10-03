@@ -14,8 +14,8 @@
     <div id="mySidenav" class="sidenav">
         <a href="index.html" onclick="navigateWithDelay(event)">Home</a>
         <a href="publications.html" onclick="navigateWithDelay(event)">Publication</a>
-        <a href="talks.html">Talks</a>
-        <a href="cv.html">CV</a>
+        <a href="#" onclick="navigateWithDelay(event, 'talks.html')">Presentations</a>
+        <a href="cv.html" onclick="navigateWithDelay(event)">CV</a>
         <!-- Add more links as needed -->
     </div>
 
@@ -24,20 +24,37 @@
 
 
     <header class="left-align-header">
-        <h1>Talks</h1>
+        <h1>Presentations</h1>
     </header>
         
     
     <section id="talks-container">
-        <div class="published-articles">
-          <h2 style="margin-left: 1cm;">Published Articles</h2>
-          <ol id="published-container"></ol> <!-- Ordered List for Published Articles -->
+        <div class="oral-presentations">
+          <h2 style="margin-left: 1cm;">Oral presentations: international</h2>
+          <ol id="oral-international-container" data-count-placeholder></ol> <!-- Ordered List for Published Articles -->
         </div>
       
-        <div class="preprints">
-          <h2 style="margin-left: 1cm;">Preprints</h2>
-          <ol id="preprints-container"></ol> <!-- Ordered List for Preprints -->
+        <div class="poster-presentations">
+          <h2 style="margin-left: 1cm;">Poster presentations: international</h2>
+          <ol id="poster-international-container"></ol> <!-- Ordered List for Preprints -->
         </div>
+
+
+
+        <div class="seminer-presentations">
+            <h2 style="margin-left: 1cm;">Seminer</h2>
+            <ol id="seminer-container"></ol> <!-- Ordered List for Published Articles -->
+          </div>
+
+        <div class="oral-presentations">
+            <h2 style="margin-left: 1cm;">Oral presentations: domestic</h2>
+            <ol id="oral-domestic-container"></ol> <!-- Ordered List for Published Articles -->
+          </div>
+        
+          <div class="poster-presentations">
+            <h2 style="margin-left: 1cm;">Poster presentations: domestic</h2>
+            <ol id="poster-domestic-container"></ol> <!-- Ordered List for Preprints -->
+          </div>
     </section>
 
 
@@ -49,9 +66,5 @@
     </footer>
 
 
-
-
-    <!-- <script src="js/script.js"></script> -->
-    <!-- <script src="js/talks.js"></script> -->
 </body>
 </html>
