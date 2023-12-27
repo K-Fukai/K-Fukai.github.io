@@ -20,17 +20,6 @@
   }
   ,
   {
-    "title": "All Local Conserved Quantities of the One-Dimensional Hubbard Model",
-    "authors": "Kohei Fukai",
-    "journal": "Phys. Rev. Lett.",
-    "volume": "131",
-    "page": "256704",
-    "year": "2023",
-    "link": "https://link.aps.org/doi/10.1103/PhysRevLett.131.256704",
-    "type": "published"
-  }
-  ,
-  {
     "title": "Matrix product operator representations for the local conserved quantities of the Heisenberg chain",
     "authors": "Kyoichi Yamada, Kohei Fukai",
     "journal": "SciPost Phys. Core",
@@ -38,6 +27,17 @@
     "volume": "6",
     "page": "069",
     "link": "https://scipost.org/10.21468/SciPostPhysCore.6.4.069",
+    "type": "published"
+  }
+  ,
+  {
+    "title": "All Local Conserved Quantities of the One-Dimensional Hubbard Model",
+    "authors": "Kohei Fukai",
+    "journal": "Phys. Rev. Lett.",
+    "volume": "131",
+    "page": "256704",
+    "year": "2023",
+    "link": "https://link.aps.org/doi/10.1103/PhysRevLett.131.256704",
     "type": "published"
   }
   ,
