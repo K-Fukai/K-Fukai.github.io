@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     const citation = document.createElement('p');
                     citation.className = 'publication-citation';
                     
-                    citation.innerHTML = `${publication.journal}, <span class='bold'>${publication.volume}</span>, ${publication.page} (${publication.year}).`;
+                    citation.innerHTML = `${publication.journal} <span class='bold'>${publication.volume}</span>, ${publication.page} (${publication.year}).`;
                     li.appendChild(citation);
 
                     const ol = publishedContainer.querySelector('ol') || document.createElement('ol');
