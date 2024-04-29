@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
         .then(response => response.json())
         .then(publications => {
             const publishedContainer = document.getElementById('published-container');
+            const featuredContainer = document.getElementById('featured-container');
             const preprintsContainer = document.getElementById('preprints-container');
             
             publications.forEach(publication => {
@@ -36,6 +37,14 @@ document.addEventListener('DOMContentLoaded', function () {
                     const ol = publishedContainer.querySelector('ol') || document.createElement('ol');
                     if (!publishedContainer.contains(ol)) publishedContainer.appendChild(ol);
                     ol.appendChild(li);
+
+                    if(publication.featured === true){
+                        const liClone = li.cloneNode(true); // Clone the li element for the featured publications
+                        const ul = featuredContainer.querySelector('ul') || document.createElement('ul'); // Change to 'ul' for a bullet list
+                        if (!featuredContainer.contains(ul)) featuredContainer.appendChild(ul);
+                        ul.appendChild(liClone); // Append the cloned li to the featured publications list
+                    }
+
                 } else if (publication.type === 'preprint') {
 
                     const citation = document.createElement('p');

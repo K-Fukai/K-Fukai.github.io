@@ -40,7 +40,8 @@
     "page": "256704",
     "year": "2023",
     "link": "https://link.aps.org/doi/10.1103/PhysRevLett.131.256704",
-    "type": "published"
+    "type": "published",
+    "featured": true
   }
   ,
   {
@@ -51,7 +52,8 @@
     "page": "90602",
     "year": "2020",
     "link": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.125.090602",
-    "type": "published"
+    "type": "published",
+    "featured": true
   }
   ,
   {

@@ -19,7 +19,12 @@
         <!-- Add more links as needed -->
     </div>
 
-   
+    <style>
+        #featured-container ul {
+            list-style-type: disc; /* This uses filled circles as bullets */
+            padding-left: 35px; /* This adds some padding to align bullets properly */
+        }
+    </style>
 
    
 
@@ -32,9 +37,20 @@
     <header class="left-align-header">
         <h1>Publications</h1>
     </header>
+
+
+ 
         
     
     <section id="publications-container">
+
+
+        <div class="published-articles">
+            <h2 style="margin-left: 3rem;">Featured publications</h2>
+            <ol id="featured-container"></ol> <!-- Ordered List for Published Articles -->
+        </div>
+
+
         <div class="published-articles">
           <h2 style="margin-left: 3rem;">Published Articles</h2>
           <ol id="published-container"></ol> <!-- Ordered List for Published Articles -->
