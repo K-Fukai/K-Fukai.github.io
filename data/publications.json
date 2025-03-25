@@ -1,5 +1,15 @@
 [
   {
+    "title": "Quantum circuits with free fermions in disguise",
+    "authors": "Kouhei Fukai, Balazs Pozsgay",
+    "journal": "arXiv preprint arXiv:2402.02984",
+    "year": "2025",
+    "page": "33403",
+    "volume": "",
+    "link": "https://arxiv.org/abs/2402.02984",
+    "type": "preprint"
+  },
+  {
     "title": "Proof of completeness of the local conserved quantities in the one-dimensional Hubbard model",
     "authors": "Kohei Fukai",
     "journal": "J. Stat. Phys.",
@@ -8,8 +18,7 @@
     "year": "2024",
     "link": "https://doi.org/10.1007/s10955-024-03267-y",
     "type": "published"
-  }
-  ,
+  },
   {
     "title": "On correlation functions in models related to the Temperley-Lieb algebra",
     "authors": "Kohei Fukai and Raphael Kleinemuhl and Balazs Pozsgay and Eric Vernier",
@@ -19,8 +28,7 @@
     "year": "2024",
     "link": "https://scipost.org/10.21468/SciPostPhys.16.1.003",
     "type": "published"
-  }
-  ,
+  },
   {
     "title": "Matrix product operator representations for the local conserved quantities of the Heisenberg chain",
     "authors": "Kyoichi Yamada, Kohei Fukai",
@@ -30,8 +38,7 @@
     "page": "069",
     "link": "https://scipost.org/10.21468/SciPostPhysCore.6.4.069",
     "type": "published"
-  }
-  ,
+  },
   {
     "title": "All Local Conserved Quantities of the One-Dimensional Hubbard Model",
     "authors": "Kohei Fukai",
@@ -42,8 +49,7 @@
     "link": "https://link.aps.org/doi/10.1103/PhysRevLett.131.256704",
     "type": "published",
     "featured": true
-  }
-  ,
+  },
   {
     "authors": "Y. Nozawa and K. Fukai",
     "title": "Explicit Construction of Local Conserved Quantities in the XYZ Spin-1/2 Chain",
@@ -54,15 +60,14 @@
     "link": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.125.090602",
     "type": "published",
     "featured": true
-  }
-  ,
+  },
   {
     "title": "Noncommutative generalized Gibbs ensemble in isolated integrable quantum systems",
     "authors": "Kouhei Fukai, Yuji Nozawa, Koji Kawahara, and Tatsuhiko N. Ikeda",
     "journal": "Phys. Rev. Research",
     "year": "2020",
-    "page" : "33403",
-    "volume" : "2",
+    "page": "33403",
+    "volume": "2",
     "link": "https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.2.033403",
     "type": "published"
   }
