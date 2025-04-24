@@ -2,12 +2,12 @@
   {
     "title": "Quantum circuits with free fermions in disguise",
     "authors": "Kouhei Fukai, Balazs Pozsgay",
-    "journal": "arXiv preprint arXiv:2402.02984",
+    "journal": "J. Phys. A: Math. Theor.",
     "year": "2025",
-    "page": "33403",
-    "volume": "",
-    "link": "https://arxiv.org/abs/2402.02984",
-    "type": "preprint"
+    "page": "175202",
+    "volume": "58",
+    "link": "https://dx.doi.org/10.1088/1751-8121/adcd18",
+    "type": "published"
   },
   {
     "title": "Proof of completeness of the local conserved quantities in the one-dimensional Hubbard model",
