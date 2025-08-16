@@ -1,12 +1,22 @@
 [
   {
+    "title": "A free fermions in disguise model with claws",
+    "authors": "Kohei Fukai, Istvan Vona, Balazs Pozsgay",
+    "journal": "arXiv preprint arXiv:2508.05789",
+    "year": "2025",
+    "page": "",
+    "volume": "",
+    "link": "https://arxiv.org/abs/2508.05789",
+    "type": "preprint"
+  },
+  {
     "title": "Quantum circuits with free fermions in disguise",
-    "authors": "Kouhei Fukai, Balazs Pozsgay",
+    "authors": "Kohei Fukai, Balazs Pozsgay",
     "journal": "J. Phys. A: Math. Theor.",
     "year": "2025",
     "page": "175202",
     "volume": "58",
-    "link": "https://dx.doi.org/10.1088/1751-8121/adcd18",
+    "link": "https://iopscience.iop.org/article/10.1088/1751-8121/adcd18/meta",
     "type": "published"
   },
   {
