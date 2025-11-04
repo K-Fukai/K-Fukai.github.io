@@ -1,3 +1,142 @@
 {
-    "julia.environmentPath": "/Users/fukai/Github/K-Fukai.github.io"
+    "files.exclude": {
+        "**/*-blx.bib": true,
+        "**/*.aux": true,
+        "**/*.bbl": true,
+        "**/*.blg": true,
+        "**/*.fdb_latexmk": true,
+        "**/*.fls": true,
+        "**/*.lof": true,
+        "**/*.log": true,
+        "**/*.lot": true,
+        "**/*.out": true,
+        "**/*.run.xml": true,
+        "**/*.synctex.gz": true,
+        "**/*.synctex(busy)": true,
+        "**/*.toc": true,
+        "**/*Notes.bib": true
+    },
+    "editor.wordWrap": "on",
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "[latex]": {
+        "editor.defaultFormatter": "James-Yu.latex-workshop",
+        "editor.formatOnSave": true,
+        "editor.autoIndent": "full",
+        "editor.formatOnType": false
+    },
+    // BibTeX用の設定を追加
+    "latex-workshop.formatting.latex": "latexindent",
+    "latex-workshop.bibtex-format.tab": "",
+    "latex-workshop.bibtex-format.case": "lowercase",
+    "latex-workshop.bibtex-format.trailingComma": false,
+    "latex-workshop.bibtex-format.sort.enabled": true,
+    "latex-workshop.bibtex-format.align-equal.enabled": false,
+    "latex-workshop.bibtex-format.surround": "Curly braces",
+    "files.trimTrailingWhitespace": true,
+    "explorer.confirmDelete": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "atlascode.jira.enabled": false,
+    "chat.editor.wordWrap": "on",
+    "diffEditor.wordWrap": "on",
+    "terminal.integrated.commandsToSkipShell": [
+        "language-julia.interrupt"
+    ],
+    "julia.symbolCacheDownload": true,
+    "julia.enableTelemetry": false,
+    "jupyter.askForKernelRestart": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "settingsSync.ignoredExtensions": [
+        "streetsidesoftware.code-spell-checker"
+    ],
+    "git.openRepositoryInParentFolders": "never",
+    "cmake.configureOnOpen": true,
+    "latex-workshop.latex.rootFile.doNotPrompt": true,
+    "C_Cpp.autocomplete": "default",
+    "C_Cpp.errorSquiggles": "disabled",
+    "C_Cpp.formatting": "clangFormat",
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "clangd.arguments": [
+        "--clang-tidy",
+        "--pch-storage=memory",
+        "--header-insertion=never"
+    ],
+    "cmake.preferredGenerators": [
+        "Ninja Multi-Config",
+        "Ninja",
+        "Unix Makefiles"
+    ],
+    "editor.inlayHints.enabled": "off",
+    "files.associations": {
+        "*.cu": "cpp",
+        "*.bib": "bibtex"
+    },
+    "editor.formatOnSave": true,
+    "editor.renderControlCharacters": true,
+    "editor.renderWhitespace": "all",
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "terminal.integrated.allowChords": false,
+    "terminal.integrated.env.linux": {
+        "EDITOR": "code --wait",
+        "VISUAL": "code --wait"
+    },
+    "editor.fontLigatures": true,
+    "cSpell.diagnosticLevel": "Hint",
+    "cSpell.ignoreRegExpList": [
+        "[０-９Ａ-Ｚａ-ｚぁ-んァ-ヶ亜-熙纊-黑]+"
+    ],
+    "workbench.iconTheme": "vscode-icons",
+    "[markdown]": {
+        "files.trimTrailingWhitespace": false,
+        "editor.formatOnPaste": true
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.markdownlint": "always"
+    },
+    "markdownlint.config": {
+        "MD004": {
+            "style": "asterisk"
+        },
+        "MD007": {
+            "indent": 4
+        },
+        "MD013": false,
+        "MD014": false,
+        "MD030": {
+            "ol_multi": 2,
+            "ol_single": 2,
+            "ul_multi": 3,
+            "ul_single": 3
+        },
+        "MD031": {
+            "list_items": false
+        },
+        "MD037": false,
+        "MD041": false
+    },
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairsHorizontal": false,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true
+    },
+    "workbench.tree.indent": 20,
+    "files.autoSave": "off",
+    "git.untrackedChanges": "separate",
+    "workbench.editor.limit.enabled": true,
+    "workbench.colorCustomizations": {
+        "titleBar.activeBackground": "#214240",
+        "titleBar.inactiveBackground": "#214240",
+        "titleBar.activeForeground": "#ffffff",
+        "titleBar.inactiveForeground": "#ffffff",
+        "statusBar.background": "#214240",
+        "statusBar.foreground": "#ffffff",
+        "activityBar.background": "#214240",
+        "activityBar.foreground": "#c8edea",
+        "tab.activeForeground": "#b5cecb",
+        "activityBarBadge.background": "#5f7170"
+    }
 }

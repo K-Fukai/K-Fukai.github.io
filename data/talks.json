@@ -1,94 +1,123 @@
 [
     {
         "speaker": "Kohei Fukai",
+        "title": "Quantum circuits with free fermions in disguise",
+        "link": "https://sites.google.com/view/the4thyoungresearchersworkshop",
+        "conference": "The 4th young researchers' workshop of the Extreme Universe Collaboration & The 7th Extreme Universe School",
+        "place": "Aichi, Japan",
+        "year": "July 2, 2025",
+        "type": "oral",
+        "nationality": "international"
+    },
+    {
+        "speaker": "Kohei Fukai",
+        "title": "Structure of Local Conservation Laws in Quantum Integrable Systems",
+        "link": "https://indico.global/event/12517/contributions/127522/",
+        "conference": "Student Workshop on Integrability",
+        "place": "Budapest, Hungary",
+        "year": "June 20, 2025",
+        "type": "oral",
+        "nationality": "international"
+    },
+    {
+        "speaker": "Kohei Fukai",
         "title": "一次元Hubbard模型における局所保存量の表式",
         "link": "https://shinaoka.github.io/online_CMT_seminars/#第96回",
-        "conference":"Online CMT seminar",
-        "place":"online",
+        "conference": "Online CMT seminar",
+        "place": "online",
         "year": "February 6, 2024",
         "type": "seminer"
-    },{
+    },
+    {
         "speaker": "深井康平",
-        "authors":"Raphael Kleinemuhl, Balazs Pozsgay, Eric Vernier",
+        "authors": "Raphael Kleinemuhl, Balazs Pozsgay, Eric Vernier",
         "title": "Temperley-Lieb代数が潜む量子可積分系における相関関数の因子化",
-        "conference":"第78回日本物理学会年次大会",
+        "conference": "第78回日本物理学会年次大会",
         "number": "18pB203-5",
-        "place":"東北大学川内キャンパス",
+        "place": "東北大学川内キャンパス",
         "year": "2023年9月",
         "type": "oral",
         "nationality": "domestic"
-    },{
+    },
+    {
         "speaker": "Kohei Fukai",
         "title": "All local conserved quantities of the one-dimensional Hubbard model",
         "link": "https://confit.atlas.jp/guide/event/statphys28/subject/T1-08A-04/detail",
-        "conference":"Statphys28",
+        "conference": "Statphys28",
         "number": "T1-08A-04",
-        "place":"The University of Tokyo, Hongo, Japan",
+        "place": "The University of Tokyo, Hongo, Japan",
         "year": "August 8, 2023",
         "type": "oral",
         "nationality": "international",
         "referred": "true"
-    },{
+    },
+    {
         "speaker": "Kohei Fukai",
         "title": "Factorization of correlation function in the Temperley-Lieb models",
         "link": "https://sites.google.com/view/statphys-seminar",
-        "conference":"StatPhys Seminar",
-        "place":"The University of Tokyo, Hongo, Japan",
+        "conference": "StatPhys Seminar",
+        "place": "The University of Tokyo, Hongo, Japan",
         "year": "June 9, 2023",
         "type": "seminer"
-    },{
+    },
+    {
         "speaker": "深井康平",
         "title": "一次元Hubbard模型における局所保存量の厳密な表式",
-        "conference":"第78回日本物理学会春季大会",
+        "conference": "第78回日本物理学会春季大会",
         "number": "25aL3-2",
-        "place":"online",
+        "place": "online",
         "year": "2023年3月",
         "type": "oral",
         "nationality": "domestic"
-    },{
+    },
+    {
         "speaker": "Kohei Fukai",
         "title": "All Local Conserved Quantities of the One-Dimensional Hubbard Model",
         "link": "https://sites.google.com/view/budapestintegrabilityevents/home",
-        "conference":"Budapest Integrability Events",
-        "place":"online",
+        "conference": "Budapest Integrability Events",
+        "place": "online",
         "year": "March 16, 2023",
         "type": "seminer"
-    },{
+    },
+    {
         "speaker": "Kohei Fukai",
         "title": "All local conserved quantities in the one-dimensional Hubbard model",
-        "conference":"FoPM International Symposium",
+        "conference": "FoPM International Symposium",
         "link": "https://indico.ipmu.jp/event/420/contributions/7253/",
         "number": "22",
-        "place":"The University of Tokyo, Hongo campus",
+        "place": "The University of Tokyo, Hongo campus",
         "year": "February 6, 2023",
         "type": "oral",
         "nationality": "international"
-    },{
+    },
+    {
         "speaker": "Kohei Fukai",
         "title": "The local conserved quantities of open spin-1/2 XYZ chain",
-        "conference":"2nd International Symposium on Trans-Scale Quantum Science",
+        "conference": "2nd International Symposium on Trans-Scale Quantum Science",
         "link": "https://www.tsqs2022.org/assets/pdf/TSQS2022_ProgramBook.pdf",
         "number": "22",
-        "place":"The University of Tokyo, Hongo campus",
+        "place": "The University of Tokyo, Hongo campus",
         "year": "November 8 to 11, 2022",
         "type": "poster",
         "nationality": "international"
-    },{
+    },
+    {
         "speaker": "深井康平",
         "title": "開放端境界条件における一次元XYZ鎖の局所保存量",
-        "conference":"格子上の場の理論と連続空間上の場の理論",
+        "conference": "格子上の場の理論と連続空間上の場の理論",
         "link": "https://www2.yukawa.kyoto-u.ac.jp/~lattice-qft2022/program.html",
-        "place":"京都大学基礎物理学研究所",
+        "place": "京都大学基礎物理学研究所",
         "year": "2022年7月",
         "type": "oral",
         "nationality": "domestic"
-    },{
+    },
+    {
         "speaker": "深井康平",
         "authors": "常次宏一",
         "title": "一次元ハバード模型の低電子密度におけるスピン相関関数の波数の温度依存性",
-        "conference":"第77回日本物理学会春季大会",
+        "conference": "第77回日本物理学会春季大会",
         "number": "16pB14",
-        "place":"online",
+        "place": "online",
         "year": "2022年3月",
         "type": "oral",
         "nationality": "domestic"
@@ -98,9 +127,9 @@
         "authors": "川原光磁, 野澤優治, 池田達彦",
         "title": "非可換保存量を用いた一般化ギブス分布",
         "link": "https://doi.org/10.11316/jpsgaiyo.75.1.0_2401",
-        "conference":"第75回日本物理学会春季大会",
+        "conference": "第75回日本物理学会春季大会",
         "number": "16pK43-8",
-        "place":"名古屋大学東山キャンパス",
+        "place": "名古屋大学東山キャンパス",
         "year": "2020年3月",
         "type": "oral",
         "nationality": "domestic"
@@ -110,9 +139,9 @@
         "authors": "野澤優治, 川原光磁, 池田達彦",
         "title": "Non commutative GGE",
         "link": "https://www-conf.kek.jp/QMKEK/poster.html",
-        "conference":"量子論の諸問題と今後の発展",
+        "conference": "量子論の諸問題と今後の発展",
         "number": "5",
-        "place":"茨城県, 高エネルギー加速器研究機構(KEK)",
+        "place": "茨城県, 高エネルギー加速器研究機構(KEK)",
         "year": "2020年2月",
         "type": "poster",
         "nationality": "domestic"
@@ -121,9 +150,9 @@
         "speaker": "深井康平",
         "authors": "野澤優治, 川原光磁, 池田達彦",
         "title": "一次元ハバード 模型におけるダイナミクスの緩和のカノニカル分布との比較",
-        "conference":"第64回物性若手夏の学校 ポスターセッション",
+        "conference": "第64回物性若手夏の学校 ポスターセッション",
         "number": "PS-25",
-        "place":"岐阜県, ホテルぎふ長良川温泉ホテルパーク",
+        "place": "岐阜県, ホテルぎふ長良川温泉ホテルパーク",
         "year": "2019年8月",
         "type": "poster",
         "nationality": "domestic"
@@ -132,9 +161,9 @@
         "speaker": "深井康平",
         "authors": "野澤優治, 川原光磁, 池田達彦",
         "title": "一次元ハバード 模型におけるダイナミクスの緩和のカノニカル分布との比較",
-        "conference":"第64回物性若手夏の学校 分科会",
+        "conference": "第64回物性若手夏の学校 分科会",
         "number": "E-8",
-        "place":"岐阜県, ホテルぎふ長良川温泉ホテルパーク",
+        "place": "岐阜県, ホテルぎふ長良川温泉ホテルパーク",
         "year": "2019年8月",
         "type": "oral",
         "nationality": "domestic"
