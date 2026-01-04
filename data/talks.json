@@ -1,6 +1,18 @@
 [
     {
         "speaker": "Kohei Fukai",
+        "authors": "Hosho Katsura",
+        "title": "Integrability in the SYK model",
+        "conference": "ExU Fifth Annual Meeting",
+        "link": "https://www2.yukawa.kyoto-u.ac.jp/~extremeuniverse/en/fifth-annual-meeting/",
+        "number": "A16",
+        "place": " Hotel Aisul Matsuyama, Matsuyama, Ehime, Japan",
+        "year": "Dec.26-28, 2025",
+        "type": "poster",
+        "nationality": "international"
+    },
+    {
+        "speaker": "Kohei Fukai",
         "title": "Quantum circuits with free fermions in disguise",
         "link": "https://sites.google.com/view/the4thyoungresearchersworkshop",
         "conference": "The 4th young researchers' workshop of the Extreme Universe Collaboration & The 7th Extreme Universe School",
