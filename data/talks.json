@@ -1,5 +1,27 @@
 [
     {
+        "speaker": "深井康平",
+        "authors": "吉田裕信, 桂法称",
+        "title": "隠れた自由フェルミオン構造を有する散逸量子スピン系の厳密解",
+        "conference": "日本物理学会2026年春季大会",
+        "number": "25pL2-2",
+        "place": "online",
+        "year": "2026年3月",
+        "type": "oral",
+        "nationality": "domestic"
+    },
+    {
+        "speaker": "深井康平",
+        "authors": "桂法称",
+        "title": "乱れのない Sachdev-Ye-Kitaev 模型の厳密解：臨界Ising鎖の可積分性からの導出",
+        "conference": "日本物理学会2026年春季大会",
+        "number": "23aL2-2",
+        "place": "online",
+        "year": "2026年3月",
+        "type": "oral",
+        "nationality": "domestic"
+    },
+    {
         "speaker": "Kohei Fukai",
         "authors": "Hosho Katsura",
         "title": "Integrability in the SYK model",
@@ -75,6 +97,7 @@
     {
         "speaker": "深井康平",
         "title": "一次元Hubbard模型における局所保存量の厳密な表式",
+        "link": "https://www.jstage.jst.go.jp/article/jpsgaiyo/78.1/0/78.1_1964/_article/-char/en",
         "conference": "第78回日本物理学会春季大会",
         "number": "25aL3-2",
         "place": "online",
@@ -127,6 +150,7 @@
         "speaker": "深井康平",
         "authors": "常次宏一",
         "title": "一次元ハバード模型の低電子密度におけるスピン相関関数の波数の温度依存性",
+        "link": "https://www.jstage.jst.go.jp/article/jpsgaiyo/77.1/0/77.1_2011/_article/-char/en",
         "conference": "第77回日本物理学会春季大会",
         "number": "16pB14",
         "place": "online",
