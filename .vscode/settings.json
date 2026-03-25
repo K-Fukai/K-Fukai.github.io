@@ -14,7 +14,8 @@
         "**/*.synctex.gz": true,
         "**/*.synctex(busy)": true,
         "**/*.toc": true,
-        "**/*Notes.bib": true
+        "**/*Notes.bib": true,
+        "**/.DS_Store": true
     },
     "editor.wordWrap": "on",
     "git.confirmSync": false,
