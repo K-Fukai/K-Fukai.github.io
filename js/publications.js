@@ -19,19 +19,74 @@ function renderPublications(publications) {
     featuredContainer.innerHTML = '';
     preprintsContainer.innerHTML = '';
 
-    publications.forEach(publication => {
+    const publishedPublications = publications
+        .filter(publication => publication.pubtype === 'published')
+        .sort(comparePublicationDatesDesc);
+    const preprintPublications = publications
+        .filter(publication => publication.pubtype === 'preprint');
+
+    publishedPublications.forEach(publication => {
         const li = createPublicationItem(publication);
 
-        if (publication.pubtype === 'published') {
-            publishedContainer.appendChild(li);
+        publishedContainer.appendChild(li);
 
-            if (publication.featured === true) {
-                featuredContainer.appendChild(li.cloneNode(true));
-            }
-        } else if (publication.pubtype === 'preprint') {
-            preprintsContainer.appendChild(li);
+        if (publication.featured === true) {
+            featuredContainer.appendChild(li.cloneNode(true));
         }
     });
+
+    preprintPublications.forEach(publication => {
+        preprintsContainer.appendChild(createPublicationItem(publication));
+    });
+}
+
+function comparePublicationDatesDesc(first, second) {
+    return getPublicationSortTime(second) - getPublicationSortTime(first);
+}
+
+function getPublicationSortTime(publication) {
+    const year = Number.parseInt(publication.year, 10);
+
+    if (!Number.isFinite(year)) return 0;
+
+    return Date.UTC(year, getPublicationMonthNumber(publication.month) - 1, 1);
+}
+
+function getPublicationMonthNumber(month) {
+    const monthNames = {
+        jan: 1,
+        january: 1,
+        feb: 2,
+        february: 2,
+        mar: 3,
+        march: 3,
+        apr: 4,
+        april: 4,
+        may: 5,
+        jun: 6,
+        june: 6,
+        jul: 7,
+        july: 7,
+        aug: 8,
+        august: 8,
+        sep: 9,
+        sept: 9,
+        september: 9,
+        oct: 10,
+        october: 10,
+        nov: 11,
+        november: 11,
+        dec: 12,
+        december: 12
+    };
+    const normalizedMonth = String(month || '').trim().toLowerCase().replace(/\.$/, '');
+    const numericMonth = Number.parseInt(normalizedMonth, 10);
+
+    if (Number.isInteger(numericMonth) && numericMonth >= 1 && numericMonth <= 12) {
+        return numericMonth;
+    }
+
+    return monthNames[normalizedMonth] || 1;
 }
 
 function createPublicationItem(publication) {
@@ -318,6 +373,7 @@ function normalizePublication(entry) {
         authors: formatAuthors(fields.author || ''),
         journal: fields.journal || formatPreprintJournal(archivePrefix, fields.eprint),
         year: fields.year || '',
+        month: fields.month || '',
         volume: fields.volume || '',
         pages: fields.pages || fields.page || '',
         link: fields.url || fields.link || formatPublicationLink(fields, archivePrefix),
