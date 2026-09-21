@@ -384,5 +384,50 @@ footer {
 }
 
 
+/* for study notes */
+
+.notes-container {
+    width: min(760px, calc(100% - 4rem));
+    margin: 2rem auto 0;
+    flex: 1;
+}
+
+.note-entry {
+    padding: 1.5rem 1.75rem;
+    border-left: 4px solid rgb(10, 86, 140);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.note-entry h2 {
+    margin: 0 0 0.75rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.25rem;
+    line-height: 1.4;
+}
+
+.note-entry h2 a {
+    color: #5c466e;
+}
+
+.note-entry p {
+    margin: 0.4rem 0;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+}
+
+.note-entry .note-links {
+    margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+    .notes-container {
+        width: calc(100% - 2rem);
+    }
+
+    .note-entry {
+        padding: 1.25rem;
+    }
+}
+
 
 
